@@ -1,0 +1,191 @@
+
+
+body {
+    font-family :Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #fff;
+   
+}
+
+header {
+    background-image: url(https://pbs.twimg.com/media/FyJn75_XsAAvYjw.png);
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/tierra1.png');   
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  2px 10px black,
+               1px 2px 0px black;
+}
+nav ul li a:hover {
+    background-color: #4433297a;
+    transform: scale(1.09);
+}
+
+
+
+.hero {
+    background-image: url(https://get.wallhere.com/photo/Minecraft-shaders-1842049.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 350px 100px;
+
+    
+}
+
+.hero h2 {
+    background-color: rgba(255, 255, 255, 0.123);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  2px 10px black,
+               1px 2px 0px black;
+}
+
+
+.content {
+    padding: 2rem;
+    background-image: url('img/bloque.png');
+    
+}
+
+.features {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    
+}
+
+.features div { 
+    
+    border-radius: 20px;
+    background-color: rgba(56, 42, 35, 0.8);
+   
+    color: #fff;
+ text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  2px 10px black,
+               1px 2px 0px black;
+
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    margin: 0 1rem;
+    backdrop-filter: blur(2px); 
+}
+
+.features div:hover {
+    transform: scale(1.09);
+}
+
+.features div img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-image: url(IMG/fondomcinver12.png);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.news article, .guides article, .contact form {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(56, 42, 35, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+ 
+}
+
+
+.news h2, .guides h2, .contact h2 {
+    color: #ffffff;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  2px 10px black,
+               1px 2px 0px black;
+}
+.news h3, .guides h3, .contact h3 {
+    color: #ffffff;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  2px 10px black,
+               1px 2px 0px black;
+}
+
+.news p, .guides p {
+    color: #ffffff;
+   
+}
+
+.news img, .guides img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.contact label {
+    margin-bottom: 5px;
+    
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact input[type="submit"] {
+    background-color: #a8907648;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #45a049;
+    
+}
